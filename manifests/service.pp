@@ -1,6 +1,6 @@
 class jenkins::service inherits jenkins{
-       
-       service{'jenkins':
-              ensure   =>  running,
-       }
+
+  service{'jenkins':
+    ensure   =>  running,
+  }
 }
